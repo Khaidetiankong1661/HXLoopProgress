@@ -31,25 +31,18 @@
     [self setMuchColor];
     [self setMuchColoMask];
     [self settUI];
-
-    [self setAnimation];
-//    self.muchColorMashLayer.strokeEnd = 0.4;
+    self.muchColorMashLayer.strokeEnd = 0.5;
 }
 
-- (void)setAnimation
-{
-    CABasicAnimation *animat = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
-    animat.duration = 1.5;
-    animat.fromValue = @(0);
-    animat.toValue = @(0.4);
-    [self.muchColorMashLayer addAnimation:animat forKey:nil];
-
-}
-
+/**
+ 创建彩色layer 并把layer添加到view的layer上
+ */
 - (void)setMuchColor
 {
     CAGradientLayer *layer = [CAGradientLayer layer];
+
     layer.frame = CGRectMake(0, 0, SELF_WIDTH, SELF_HEIGHT);
+
     layer.colors = @[(id)[HXLoopProgressView startColor].CGColor,
                      (id)[HXLoopProgressView endColor].CGColor];
 
@@ -61,6 +54,9 @@
     [self.layer addSublayer:layer];
 }
 
+/**
+ 为彩色layer添加蒙层mask。这个mask有点讲究，有不清楚的可以看一下我页面的详细解说
+ */
 - (void)setMuchColoMask
 {
     CAShapeLayer *mashLayer = [self generateMaskLayer];
@@ -68,7 +64,9 @@
     self.muchColorLayer.mask = mashLayer;
 }
 
-
+/**
+ 为view的layer添加蒙层mask。
+ */
 - (void)settUI
 {
     CAShapeLayer *layer = [self generateMaskLayer];
@@ -76,6 +74,11 @@
     self.layer.mask = layer;
 }
 
+/**
+ 创建圆环，适合做蒙层，也适合画纯色图形
+
+ @return CAShapeLayer
+ */
 - (CAShapeLayer *)generateMaskLayer
 {
     CAShapeLayer *layer = [CAShapeLayer layer];
@@ -97,11 +100,32 @@
     return layer;
 }
 
+/**
+ 加了一个动画，如果不要动画的直接去掉，把注掉部分打开即可
+
+ @param persentage 进度
+ */
 - (void)setPersentage:(CGFloat)persentage
 {
+    // 如果不要动画 把这两行打开 下面那行注掉即可
     _persentage = persentage;
     self.muchColorMashLayer.strokeEnd = persentage;
 
+//    [self setPer:persentage];
+}
+
+// 动画
+- (void)setPer:(CGFloat)persent
+{
+
+    [CATransaction begin];
+    [CATransaction setDisableActions:NO];
+    [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
+    [CATransaction setAnimationDuration:1.5];
+    _muchColorMashLayer.strokeEnd = persent;
+    [CATransaction commit];
+
+    _persentage = persent;
 }
 
 @end

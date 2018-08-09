@@ -15,6 +15,8 @@
 		7B7D5911211A8B3600ECBE54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5910211A8B3600ECBE54 /* main.m */; };
 		7B7D591B211A8B3600ECBE54 /* LoopProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D591A211A8B3600ECBE54 /* LoopProgressTests.m */; };
 		7B7D5926211A8B3600ECBE54 /* LoopProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5925211A8B3600ECBE54 /* LoopProgressUITests.m */; };
+		7B7D5935211A8B5700ECBE54 /* HXLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */; };
+		7B7D5938211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		7B7D5921211A8B3600ECBE54 /* LoopProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7D5925211A8B3600ECBE54 /* LoopProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopProgressUITests.m; sourceTree = "<group>"; };
 		7B7D5927211A8B3600ECBE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7D5933211A8B5700ECBE54 /* HXLoopProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXLoopProgressView.h; sourceTree = "<group>"; };
+		7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLoopProgressView.m; sourceTree = "<group>"; };
+		7B7D5936211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXLoopProgressView+BaseConfiguration.h"; sourceTree = "<group>"; };
+		7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HXLoopProgressView+BaseConfiguration.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B778B76211C214A0074B0BC /* HXLoopProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				7B7D5933211A8B5700ECBE54 /* HXLoopProgressView.h */,
+				7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */,
+				7B7D5936211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.h */,
+				7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */,
+			);
+			path = HXLoopProgressView;
+			sourceTree = "<group>";
+		};
 		7B7D58F5211A8B3400ECBE54 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +122,7 @@
 				7B7D5902211A8B3400ECBE54 /* AppDelegate.m */,
 				7B7D5904211A8B3400ECBE54 /* ViewController.h */,
 				7B7D5905211A8B3400ECBE54 /* ViewController.m */,
+				7B778B76211C214A0074B0BC /* HXLoopProgressView */,
 				7B7D5907211A8B3400ECBE54 /* Main.storyboard */,
 				7B7D590A211A8B3600ECBE54 /* Assets.xcassets */,
 				7B7D590C211A8B3600ECBE54 /* LaunchScreen.storyboard */,
@@ -263,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B7D5906211A8B3400ECBE54 /* ViewController.m in Sources */,
+				7B7D5935211A8B5700ECBE54 /* HXLoopProgressView.m in Sources */,
 				7B7D5911211A8B3600ECBE54 /* main.m in Sources */,
 				7B7D5903211A8B3400ECBE54 /* AppDelegate.m in Sources */,
+				7B7D5938211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,4 +12,7 @@
 
 @property (nonatomic, assign) CGFloat persentage;
 
+- (void)setPer:(CGFloat)persent;
+
+
 @end
