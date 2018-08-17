@@ -4,7 +4,14 @@
 //
 //  Created by hongbaodai on 2018/8/17.
 //  Copyright © 2018年 wang. All rights reserved.
-//  适配器
+/*
+ 适配器 :
+ 将一个类的接口转换成客户希望的另外一个接口。Adapter 模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
+ 适用场景：
+ 1、已经存在的类的接口不符合我们的需求；
+ 2、创建一个可以复用的类，使得该类可以与其他不相关的类或不可预见的类（即那些接口可能不一定兼容的类）协同工作；
+ 3、在不对每一个都进行子类化以匹配它们的接口的情况下，使用一些已经存在的子类。
+ */
 
 #import "AdapterViewController.h"
 #import "HXSettingTableViewCell.h"
@@ -59,7 +66,7 @@
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return indexPath.section == 0 ? 50:46;
+    return indexPath.section == 0 ? 55:52;
 }
 
 
@@ -102,7 +109,7 @@
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, ScreenSize.width, ScreenSize.height) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.backgroundColor = [UIColor colorWithRed:0.9412 green:0.9412 blue:0.9412 alpha:1.0];
+        _tableView.backgroundColor = [UIColor colorWithRed:250.0/255.0f green:250.0/255.0f blue:250.0/255.0f alpha:1.0];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         //添加收键盘手势
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];

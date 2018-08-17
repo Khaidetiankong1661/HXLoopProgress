@@ -27,6 +27,7 @@
 		7BB328512126B62C00E69FCD /* HXListViewAdaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328502126B62C00E69FCD /* HXListViewAdaper.m */; };
 		7BB328542126B64600E69FCD /* HXListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328532126B64500E69FCD /* HXListModel.m */; };
 		7BB328572126BB5800E69FCD /* HXProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328562126BB5800E69FCD /* HXProgressViewController.m */; };
+		7BB3285A2126D1A200E69FCD /* HXIamgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328592126D1A200E69FCD /* HXIamgeView.m */; };
 		C7A8F1F2DD7C09997D09FF6D /* Pods_LoopProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F4B9AF38273862B72FDF1A /* Pods_LoopProgress.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,8 @@
 		7BB328532126B64500E69FCD /* HXListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXListModel.m; sourceTree = "<group>"; };
 		7BB328552126BB5800E69FCD /* HXProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXProgressViewController.h; sourceTree = "<group>"; };
 		7BB328562126BB5800E69FCD /* HXProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXProgressViewController.m; sourceTree = "<group>"; };
+		7BB328582126D1A200E69FCD /* HXIamgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXIamgeView.h; sourceTree = "<group>"; };
+		7BB328592126D1A200E69FCD /* HXIamgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXIamgeView.m; sourceTree = "<group>"; };
 		92F4B9AF38273862B72FDF1A /* Pods_LoopProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoopProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BA0D7A781E5A1B0291973C /* Pods-LoopProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopProgress.debug.xcconfig"; path = "Target Support Files/Pods-LoopProgress/Pods-LoopProgress.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,12 +179,7 @@
 			children = (
 				7B7D5901211A8B3400ECBE54 /* AppDelegate.h */,
 				7B7D5902211A8B3400ECBE54 /* AppDelegate.m */,
-				7BB3282621266CCB00E69FCD /* HXListViewController.h */,
-				7BB3282721266CCB00E69FCD /* HXListViewController.m */,
-				7BB3284F2126B62C00E69FCD /* HXListViewAdaper.h */,
-				7BB328502126B62C00E69FCD /* HXListViewAdaper.m */,
-				7BB328522126B64500E69FCD /* HXListModel.h */,
-				7BB328532126B64500E69FCD /* HXListModel.m */,
+				7BB3285B2126D4BA00E69FCD /* MainVC */,
 				7BB3284E2126AB1E00E69FCD /* num0 */,
 				7BB3282921266DF700E69FCD /* num1 */,
 				7BB32840212675FB00E69FCD /* Tool */,
@@ -242,6 +240,8 @@
 				7BB3283921266FCF00E69FCD /* HXSettingCellAdaper.h */,
 				7BB3283A21266FCF00E69FCD /* HXSettingCellAdaper.m */,
 				7BB3283F2126701600E69FCD /* HXSettingCellAdaperProtocol.h */,
+				7BB328582126D1A200E69FCD /* HXIamgeView.h */,
+				7BB328592126D1A200E69FCD /* HXIamgeView.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -282,6 +282,19 @@
 				7BB328562126BB5800E69FCD /* HXProgressViewController.m */,
 			);
 			path = num0;
+			sourceTree = "<group>";
+		};
+		7BB3285B2126D4BA00E69FCD /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3282621266CCB00E69FCD /* HXListViewController.h */,
+				7BB3282721266CCB00E69FCD /* HXListViewController.m */,
+				7BB3284F2126B62C00E69FCD /* HXListViewAdaper.h */,
+				7BB328502126B62C00E69FCD /* HXListViewAdaper.m */,
+				7BB328522126B64500E69FCD /* HXListModel.h */,
+				7BB328532126B64500E69FCD /* HXListModel.m */,
+			);
+			path = MainVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,6 +474,7 @@
 				7BB3284D21269EDC00E69FCD /* HXSettingViewController.m in Sources */,
 				7BB328542126B64600E69FCD /* HXListModel.m in Sources */,
 				7BB3283821266FBC00E69FCD /* HXSettingTableViewCell.m in Sources */,
+				7BB3285A2126D1A200E69FCD /* HXIamgeView.m in Sources */,
 				7BB3282F21266E9400E69FCD /* AdapterViewController.m in Sources */,
 				7BB3283B21266FCF00E69FCD /* HXSettingCellAdaper.m in Sources */,
 				7BB328572126BB5800E69FCD /* HXProgressViewController.m in Sources */,

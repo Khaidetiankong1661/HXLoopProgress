@@ -10,6 +10,7 @@
 #import "HXSettingModel.h"
 #import "HXSettingModelAdaper.h"
 #import "HXSettingCellAdaper.h"
+#import "HXIamgeView.h"
 
 @interface HXSettingViewController ()
 
@@ -55,15 +56,23 @@
 
     //第三组
     NSMutableArray *group3 = [NSMutableArray array];
-    HXSettingModel *model31 =[[HXSettingModel alloc]initWithIcon:@"wangguan" title:@"网关" destClass:nil andAccessibilityView:nil];
+    HXSettingModel *model31 =[[HXSettingModel alloc]initWithIcon:@"" title:@"网关" destClass:nil andAccessibilityView:nil];
 
     HXSettingCellAdaper *adapter31 = [[HXSettingModelAdaper alloc]initWithData:model31];
     [group3 addObject:adapter31];
 
     
+    //第四组
+    NSMutableArray *group4 = [NSMutableArray array];
+    HXSettingModel *model4 =[[HXSettingModel alloc]initWithIcon:@"wangguan" title:@"部句" destClass:nil andAccessibilityView:nil];
+
+    HXSettingCellAdaper *adapter4 = [[HXSettingModelAdaper alloc]initWithData:model4];
+    [group4 addObject:adapter4];
+    
     [dataSource addObject:group1];
     [dataSource addObject:group2];
     [dataSource addObject:group3];
+    [dataSource addObject:group4];
     return dataSource;
 }
 

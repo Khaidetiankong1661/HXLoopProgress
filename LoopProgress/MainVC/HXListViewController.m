@@ -21,39 +21,28 @@
 
 - (NSMutableArray<NSMutableArray<HXSettingCellAdaper *> *> *)getDataSource
 {
-    NSMutableArray  *dataSource = [NSMutableArray array];
-
-    //第一组
-    NSMutableArray *group1 = [NSMutableArray array];
     HXListModel *model1 = [[HXListModel alloc] initWithIcon:@"InvestmentRecord" title:@"蒙层彩色渐进圆环" destClass:nil];
     model1.blockk = ^{
         HXProgressViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"HXProgressViewController"];
         [self.navigationController pushViewController:vc animated:YES];
     };
     HXSettingCellAdaper *adapter1 = [[HXListViewAdaper alloc] initWithData:model1];
-    [group1 addObject:adapter1];
 
-    //第二组
-    NSMutableArray *group2 = [NSMutableArray array];
     HXListModel *model2 = [[HXListModel alloc]initWithIcon:@"myMoney" title:@"适配器cell" destClass:[HXSettingViewController class]];
     HXSettingCellAdaper *adapter2 = [[HXListViewAdaper alloc] initWithData:model2];
-    [group2 addObject:adapter2];
 
     HXListModel *model3 =[[HXListModel alloc] initWithIcon:nil title:@"关于" destClass:[self class]];
     HXSettingCellAdaper *adapter3  = [[HXListViewAdaper alloc] initWithData:model3];
-    [group2 addObject:adapter3];
 
-
-    //第三组
-    NSMutableArray *group3 = [NSMutableArray array];
     HXListModel *model31 =[[HXListModel alloc]initWithIcon:nil title:@"网关" destClass:nil];
-    HXSettingCellAdaper *adapter31 = [[HXListViewAdaper alloc] initWithData:model31];
-    [group3 addObject:adapter31];
+    HXSettingCellAdaper *adapter4 = [[HXListViewAdaper alloc] initWithData:model31];
 
 
-    [dataSource addObject:group1];
-    [dataSource addObject:group2];
-    [dataSource addObject:group3];
+
+    NSMutableArray *group = [NSMutableArray arrayWithObjects:adapter1, adapter2, adapter3, adapter4, nil];
+    NSMutableArray  *dataSource = [NSMutableArray array];
+    [dataSource addObject:group];
+
     return dataSource;
 }
 
