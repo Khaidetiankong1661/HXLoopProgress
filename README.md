@@ -1,6 +1,6 @@
 # HXLoopProgress
 
-## 环形渐变进图条展示
+## num0：环形渐变进图条展示
 
 ![环形渐变进图条展示](./IMAGs/gifss.gif)
 
@@ -26,8 +26,8 @@ mask中backgroudcolor的alpha比contents的图片alpha要强。
 [https://blog.csdn.net/qq_27909209/article/details/81538170](https://blog.csdn.net/qq_27909209/article/details/81538170)
 
 
-
-## 适配器
+##
+##  num1：适配器
 ![适配器模式开发：cell](./IMAGs/adaper.png)
 
 
