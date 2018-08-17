@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LFt-FR-luL">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--List View Controller-->
+        <scene sceneID="8cS-99-vhz">
+            <objects>
+                <viewController id="htW-un-jiM" customClass="HXListViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="noK-zL-QXE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YlN-Pd-TBu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YDt-dj-cbg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48w-6H-XNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="484" y="142.57871064467767"/>
+        </scene>
+        <!--Progress View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HXProgressViewController" id="BYZ-38-t0r" customClass="HXProgressViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,28 +48,54 @@
                                     <constraint firstAttribute="height" constant="29" id="TwE-cu-T0S"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="nVf-fX-0AE"/>
+                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Jmu-nE-O8e"/>
                                 </connections>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主要实用点：mask（蒙层）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPw-FE-eF5">
+                                <rect key="frame" x="93" y="46" width="189.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53725490200000003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="RMR-8r-VpT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T60-ht-ao9"/>
                             <constraint firstItem="Ubv-zy-40e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="b7j-e0-NMD"/>
+                            <constraint firstItem="wPw-FE-eF5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="eNu-RO-BKs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ubv-zy-40e" secondAttribute="trailing" constant="10" id="elL-r4-eNs"/>
+                            <constraint firstItem="wPw-FE-eF5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gU8-0b-zpu"/>
                             <constraint firstItem="Ubv-zy-40e" firstAttribute="top" secondItem="RMR-8r-VpT" secondAttribute="bottom" constant="41.5" id="pmj-rY-AqZ"/>
                             <constraint firstItem="RMR-8r-VpT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wsr-Qo-Kq9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="slider" destination="Ubv-zy-40e" id="jYm-WI-LWw"/>
-                        <outlet property="views" destination="RMR-8r-VpT" id="YIP-S7-1eX"/>
+                        <outlet property="slider" destination="Ubv-zy-40e" id="7cw-gS-RLr"/>
+                        <outlet property="views" destination="RMR-8r-VpT" id="Aas-hC-sWw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1215.2" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ziU-0I-H1c">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LFt-FR-luL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OS1-wb-U5B">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="htW-un-jiM" kind="relationship" relationship="rootViewController" id="ZPC-uq-Is4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Krt-Y9-Psy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-455.19999999999999" y="142.57871064467767"/>
         </scene>
     </scenes>
 </document>

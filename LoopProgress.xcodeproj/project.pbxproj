@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7B7D5903211A8B3400ECBE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5902211A8B3400ECBE54 /* AppDelegate.m */; };
-		7B7D5906211A8B3400ECBE54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5905211A8B3400ECBE54 /* ViewController.m */; };
 		7B7D5909211A8B3400ECBE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D5907211A8B3400ECBE54 /* Main.storyboard */; };
 		7B7D590B211A8B3600ECBE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D590A211A8B3600ECBE54 /* Assets.xcassets */; };
 		7B7D590E211A8B3600ECBE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D590C211A8B3600ECBE54 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,18 @@
 		7B7D5926211A8B3600ECBE54 /* LoopProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5925211A8B3600ECBE54 /* LoopProgressUITests.m */; };
 		7B7D5935211A8B5700ECBE54 /* HXLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */; };
 		7B7D5938211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */; };
+		7BB3282821266CCB00E69FCD /* HXListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3282721266CCB00E69FCD /* HXListViewController.m */; };
+		7BB3282F21266E9400E69FCD /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3282E21266E9400E69FCD /* AdapterViewController.m */; };
+		7BB3283221266F6500E69FCD /* HXSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3283121266F6500E69FCD /* HXSettingModel.m */; };
+		7BB3283821266FBC00E69FCD /* HXSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3283721266FBC00E69FCD /* HXSettingTableViewCell.m */; };
+		7BB3283B21266FCF00E69FCD /* HXSettingCellAdaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3283A21266FCF00E69FCD /* HXSettingCellAdaper.m */; };
+		7BB3283E21266FEF00E69FCD /* HXSettingModelAdaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3283D21266FEF00E69FCD /* HXSettingModelAdaper.m */; };
+		7BB328472126765400E69FCD /* UIColor+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328462126765400E69FCD /* UIColor+Tool.m */; };
+		7BB3284D21269EDC00E69FCD /* HXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3284C21269EDC00E69FCD /* HXSettingViewController.m */; };
+		7BB328512126B62C00E69FCD /* HXListViewAdaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328502126B62C00E69FCD /* HXListViewAdaper.m */; };
+		7BB328542126B64600E69FCD /* HXListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328532126B64500E69FCD /* HXListModel.m */; };
+		7BB328572126BB5800E69FCD /* HXProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB328562126BB5800E69FCD /* HXProgressViewController.m */; };
+		C7A8F1F2DD7C09997D09FF6D /* Pods_LoopProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F4B9AF38273862B72FDF1A /* Pods_LoopProgress.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7629560B5B1AE8B0E3EAD950 /* Pods-LoopProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopProgress.release.xcconfig"; path = "Target Support Files/Pods-LoopProgress/Pods-LoopProgress.release.xcconfig"; sourceTree = "<group>"; };
 		7B7D58FE211A8B3400ECBE54 /* LoopProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7D5901211A8B3400ECBE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B7D5902211A8B3400ECBE54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B7D5904211A8B3400ECBE54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B7D5905211A8B3400ECBE54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B7D5908211A8B3400ECBE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B7D590A211A8B3600ECBE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7D590D211A8B3600ECBE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +67,32 @@
 		7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLoopProgressView.m; sourceTree = "<group>"; };
 		7B7D5936211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXLoopProgressView+BaseConfiguration.h"; sourceTree = "<group>"; };
 		7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HXLoopProgressView+BaseConfiguration.m"; sourceTree = "<group>"; };
+		7BB3282621266CCB00E69FCD /* HXListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXListViewController.h; sourceTree = "<group>"; };
+		7BB3282721266CCB00E69FCD /* HXListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXListViewController.m; sourceTree = "<group>"; };
+		7BB3282D21266E9400E69FCD /* AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		7BB3282E21266E9400E69FCD /* AdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		7BB3283021266F6500E69FCD /* HXSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSettingModel.h; sourceTree = "<group>"; };
+		7BB3283121266F6500E69FCD /* HXSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSettingModel.m; sourceTree = "<group>"; };
+		7BB3283621266FBC00E69FCD /* HXSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSettingTableViewCell.h; sourceTree = "<group>"; };
+		7BB3283721266FBC00E69FCD /* HXSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSettingTableViewCell.m; sourceTree = "<group>"; };
+		7BB3283921266FCF00E69FCD /* HXSettingCellAdaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSettingCellAdaper.h; sourceTree = "<group>"; };
+		7BB3283A21266FCF00E69FCD /* HXSettingCellAdaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSettingCellAdaper.m; sourceTree = "<group>"; };
+		7BB3283C21266FEF00E69FCD /* HXSettingModelAdaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSettingModelAdaper.h; sourceTree = "<group>"; };
+		7BB3283D21266FEF00E69FCD /* HXSettingModelAdaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSettingModelAdaper.m; sourceTree = "<group>"; };
+		7BB3283F2126701600E69FCD /* HXSettingCellAdaperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSettingCellAdaperProtocol.h; sourceTree = "<group>"; };
+		7BB328452126765400E69FCD /* UIColor+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tool.h"; sourceTree = "<group>"; };
+		7BB328462126765400E69FCD /* UIColor+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tool.m"; sourceTree = "<group>"; };
+		7BB3284A21269AB200E69FCD /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		7BB3284B21269EDC00E69FCD /* HXSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSettingViewController.h; sourceTree = "<group>"; };
+		7BB3284C21269EDC00E69FCD /* HXSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSettingViewController.m; sourceTree = "<group>"; };
+		7BB3284F2126B62C00E69FCD /* HXListViewAdaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXListViewAdaper.h; sourceTree = "<group>"; };
+		7BB328502126B62C00E69FCD /* HXListViewAdaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXListViewAdaper.m; sourceTree = "<group>"; };
+		7BB328522126B64500E69FCD /* HXListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXListModel.h; sourceTree = "<group>"; };
+		7BB328532126B64500E69FCD /* HXListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXListModel.m; sourceTree = "<group>"; };
+		7BB328552126BB5800E69FCD /* HXProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXProgressViewController.h; sourceTree = "<group>"; };
+		7BB328562126BB5800E69FCD /* HXProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXProgressViewController.m; sourceTree = "<group>"; };
+		92F4B9AF38273862B72FDF1A /* Pods_LoopProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoopProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BA0D7A781E5A1B0291973C /* Pods-LoopProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopProgress.debug.xcconfig"; path = "Target Support Files/Pods-LoopProgress/Pods-LoopProgress.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A8F1F2DD7C09997D09FF6D /* Pods_LoopProgress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035A9AFBD69462322061B7F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5BA0D7A781E5A1B0291973C /* Pods-LoopProgress.debug.xcconfig */,
+				7629560B5B1AE8B0E3EAD950 /* Pods-LoopProgress.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3FAD7E35FB38F9E28851C26F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92F4B9AF38273862B72FDF1A /* Pods_LoopProgress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B778B76211C214A0074B0BC /* HXLoopProgressView */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +156,8 @@
 				7B7D5919211A8B3600ECBE54 /* LoopProgressTests */,
 				7B7D5924211A8B3600ECBE54 /* LoopProgressUITests */,
 				7B7D58FF211A8B3400ECBE54 /* Products */,
+				035A9AFBD69462322061B7F8 /* Pods */,
+				3FAD7E35FB38F9E28851C26F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,14 +176,21 @@
 			children = (
 				7B7D5901211A8B3400ECBE54 /* AppDelegate.h */,
 				7B7D5902211A8B3400ECBE54 /* AppDelegate.m */,
-				7B7D5904211A8B3400ECBE54 /* ViewController.h */,
-				7B7D5905211A8B3400ECBE54 /* ViewController.m */,
-				7B778B76211C214A0074B0BC /* HXLoopProgressView */,
+				7BB3282621266CCB00E69FCD /* HXListViewController.h */,
+				7BB3282721266CCB00E69FCD /* HXListViewController.m */,
+				7BB3284F2126B62C00E69FCD /* HXListViewAdaper.h */,
+				7BB328502126B62C00E69FCD /* HXListViewAdaper.m */,
+				7BB328522126B64500E69FCD /* HXListModel.h */,
+				7BB328532126B64500E69FCD /* HXListModel.m */,
+				7BB3284E2126AB1E00E69FCD /* num0 */,
+				7BB3282921266DF700E69FCD /* num1 */,
+				7BB32840212675FB00E69FCD /* Tool */,
 				7B7D5907211A8B3400ECBE54 /* Main.storyboard */,
 				7B7D590A211A8B3600ECBE54 /* Assets.xcassets */,
 				7B7D590C211A8B3600ECBE54 /* LaunchScreen.storyboard */,
 				7B7D590F211A8B3600ECBE54 /* Info.plist */,
 				7B7D5910211A8B3600ECBE54 /* main.m */,
+				7BB3284A21269AB200E69FCD /* Header.h */,
 			);
 			path = LoopProgress;
 			sourceTree = "<group>";
@@ -150,6 +213,77 @@
 			path = LoopProgressUITests;
 			sourceTree = "<group>";
 		};
+		7BB3282921266DF700E69FCD /* num1 */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3282B21266E3300E69FCD /* Cell */,
+				7BB3282A21266E3300E69FCD /* Controller */,
+				7BB3282C21266E3300E69FCD /* Model */,
+			);
+			path = num1;
+			sourceTree = "<group>";
+		};
+		7BB3282A21266E3300E69FCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3282D21266E9400E69FCD /* AdapterViewController.h */,
+				7BB3282E21266E9400E69FCD /* AdapterViewController.m */,
+				7BB3284B21269EDC00E69FCD /* HXSettingViewController.h */,
+				7BB3284C21269EDC00E69FCD /* HXSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7BB3282B21266E3300E69FCD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3283621266FBC00E69FCD /* HXSettingTableViewCell.h */,
+				7BB3283721266FBC00E69FCD /* HXSettingTableViewCell.m */,
+				7BB3283921266FCF00E69FCD /* HXSettingCellAdaper.h */,
+				7BB3283A21266FCF00E69FCD /* HXSettingCellAdaper.m */,
+				7BB3283F2126701600E69FCD /* HXSettingCellAdaperProtocol.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7BB3282C21266E3300E69FCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3283021266F6500E69FCD /* HXSettingModel.h */,
+				7BB3283121266F6500E69FCD /* HXSettingModel.m */,
+				7BB3283C21266FEF00E69FCD /* HXSettingModelAdaper.h */,
+				7BB3283D21266FEF00E69FCD /* HXSettingModelAdaper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BB32840212675FB00E69FCD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7BB32841212675FB00E69FCD /* Categorys */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7BB32841212675FB00E69FCD /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				7BB328452126765400E69FCD /* UIColor+Tool.h */,
+				7BB328462126765400E69FCD /* UIColor+Tool.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		7BB3284E2126AB1E00E69FCD /* num0 */ = {
+			isa = PBXGroup;
+			children = (
+				7B778B76211C214A0074B0BC /* HXLoopProgressView */,
+				7BB328552126BB5800E69FCD /* HXProgressViewController.h */,
+				7BB328562126BB5800E69FCD /* HXProgressViewController.m */,
+			);
+			path = num0;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B7D592A211A8B3600ECBE54 /* Build configuration list for PBXNativeTarget "LoopProgress" */;
 			buildPhases = (
+				878088DAA60B90B33BC7CA0E /* [CP] Check Pods Manifest.lock */,
 				7B7D58FA211A8B3400ECBE54 /* Sources */,
 				7B7D58FB211A8B3400ECBE54 /* Frameworks */,
 				7B7D58FC211A8B3400ECBE54 /* Resources */,
+				55CC6465644F4F03DF92703C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,16 +411,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55CC6465644F4F03DF92703C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoopProgress/Pods-LoopProgress-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoopProgress/Pods-LoopProgress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878088DAA60B90B33BC7CA0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoopProgress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B7D58FA211A8B3400ECBE54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B7D5906211A8B3400ECBE54 /* ViewController.m in Sources */,
+				7BB328512126B62C00E69FCD /* HXListViewAdaper.m in Sources */,
 				7B7D5935211A8B5700ECBE54 /* HXLoopProgressView.m in Sources */,
+				7BB3283221266F6500E69FCD /* HXSettingModel.m in Sources */,
+				7BB3284D21269EDC00E69FCD /* HXSettingViewController.m in Sources */,
+				7BB328542126B64600E69FCD /* HXListModel.m in Sources */,
+				7BB3283821266FBC00E69FCD /* HXSettingTableViewCell.m in Sources */,
+				7BB3282F21266E9400E69FCD /* AdapterViewController.m in Sources */,
+				7BB3283B21266FCF00E69FCD /* HXSettingCellAdaper.m in Sources */,
+				7BB328572126BB5800E69FCD /* HXProgressViewController.m in Sources */,
+				7BB3282821266CCB00E69FCD /* HXListViewController.m in Sources */,
 				7B7D5911211A8B3600ECBE54 /* main.m in Sources */,
+				7BB3283E21266FEF00E69FCD /* HXSettingModelAdaper.m in Sources */,
 				7B7D5903211A8B3400ECBE54 /* AppDelegate.m in Sources */,
 				7B7D5938211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m in Sources */,
+				7BB328472126765400E69FCD /* UIColor+Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,10 +636,12 @@
 		};
 		7B7D592B211A8B3600ECBE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BA0D7A781E5A1B0291973C /* Pods-LoopProgress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSW3225UBX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoopProgress/Header.h";
 				INFOPLIST_FILE = LoopProgress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,10 +655,12 @@
 		};
 		7B7D592C211A8B3600ECBE54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7629560B5B1AE8B0E3EAD950 /* Pods-LoopProgress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSW3225UBX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoopProgress/Header.h";
 				INFOPLIST_FILE = LoopProgress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
