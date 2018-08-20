@@ -30,5 +30,7 @@ mask中backgroudcolor的alpha比contents的图片alpha要强。
 ##  num1：适配器
 ![适配器模式开发：cell](./IMAGs/adaper.png)
 
-
+##
+##  num2：抽象工厂模式
+![抽象工厂模式开发：cell](./IMAGs/factory.png)
 
