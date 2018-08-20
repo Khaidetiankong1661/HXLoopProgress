@@ -54,7 +54,7 @@
     [self.contentView addSubview:imageView];
     //label
     UILabel *label         = [[UILabel alloc]init];
-    label.textColor        = [UIColor colorWithHexString:@"#353535"];
+    label.textColor        = [UIColor colorWithHexString:@"#353535"]; 
     label.font             = [UIFont systemFontOfSize:14];
     self.tipsLabel         = label;
     [self.contentView addSubview:label];
@@ -104,10 +104,10 @@
 
     if ([data iconNameStr].length <= 0) {
         //label
-        [self.tipsLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        [self.tipsLabel mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.centerY.mas_equalTo(self.contentView);
+            make.right.mas_equalTo(-2);
             make.left.mas_equalTo(@(20));
-//            make.right.mas_equalTo(-2);
         }];
     }
 }

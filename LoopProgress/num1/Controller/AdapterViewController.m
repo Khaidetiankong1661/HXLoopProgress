@@ -61,7 +61,20 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 8;
+    return 6;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor whiteColor];
+
+    UIView *view2 = [[UIView alloc] init];
+    view2.frame = CGRectMake(0, 0, 15, 6);
+    view2.backgroundColor = [UIColor colorWithHexString:@"#8796a9"]; // #353535  #f6ab00
+    [view addSubview:view2];
+
+    return view;
 }
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="HXOperationTwoTVCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7w-jJ-KGc">
+                        <rect key="frame" x="28" y="22" width="282" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.53955667005409813" green="0.44419943758897679" blue="0.57102633248730972" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ip-LR-T4w">
+                        <rect key="frame" x="0.0" y="93.5" width="320" height="6"/>
+                        <color key="backgroundColor" red="0.94325031729999997" green="0.94325031729999997" blue="0.94325031729999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="l4G-0H-KdX"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7A-H6-4cW">
+                        <rect key="frame" x="30" y="70.5" width="20" height="20"/>
+                        <color key="backgroundColor" red="0.61176470589999998" green="0.78823529410000004" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="hCO-rE-xKD"/>
+                            <constraint firstAttribute="width" constant="20" id="u9i-QE-Emm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEl-FJ-aFF">
+                        <rect key="frame" x="159" y="70.5" width="140" height="20"/>
+                        <color key="backgroundColor" red="0.3921568627" green="0.75686274509999996" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="H7h-hH-58u"/>
+                            <constraint firstAttribute="width" constant="140" id="R3v-T0-aJX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gxx-YJ-bkp">
+                        <rect key="frame" x="90" y="70.5" width="20" height="20"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.6705882353" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="F9J-4X-8Kr"/>
+                            <constraint firstAttribute="height" constant="20" id="gWB-4V-JIU"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1ip-LR-T4w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1AW-Dt-BDK"/>
+                    <constraint firstAttribute="bottom" secondItem="Gxx-YJ-bkp" secondAttribute="bottom" constant="9" id="DeN-hy-IW3"/>
+                    <constraint firstItem="hEl-FJ-aFF" firstAttribute="leading" secondItem="Gxx-YJ-bkp" secondAttribute="trailing" constant="49" id="Ejj-S0-iLL"/>
+                    <constraint firstItem="e7A-H6-4cW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="Nzw-YC-42h"/>
+                    <constraint firstAttribute="bottom" secondItem="1ip-LR-T4w" secondAttribute="bottom" id="O9a-jf-6WQ"/>
+                    <constraint firstAttribute="trailing" secondItem="1ip-LR-T4w" secondAttribute="trailing" id="Sml-w0-qOF"/>
+                    <constraint firstAttribute="trailing" secondItem="R7w-jJ-KGc" secondAttribute="trailing" constant="10" id="Xr2-86-uai"/>
+                    <constraint firstAttribute="bottom" secondItem="e7A-H6-4cW" secondAttribute="bottom" constant="9" id="cFp-tC-hUt"/>
+                    <constraint firstItem="R7w-jJ-KGc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="28" id="enL-5U-Zrz"/>
+                    <constraint firstItem="Gxx-YJ-bkp" firstAttribute="leading" secondItem="e7A-H6-4cW" secondAttribute="trailing" constant="40" id="qmf-ax-prQ"/>
+                    <constraint firstAttribute="bottom" secondItem="hEl-FJ-aFF" secondAttribute="bottom" constant="9" id="rAm-1M-Bcz"/>
+                    <constraint firstItem="R7w-jJ-KGc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22" id="sJ9-kh-DYz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="tilteLabel" destination="R7w-jJ-KGc" id="46o-Wo-haq"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="100"/>
+        </tableViewCell>
+    </objects>
+</document>

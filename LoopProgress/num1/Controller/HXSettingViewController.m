@@ -11,10 +11,10 @@
 #import "HXSettingModelAdaper.h"
 #import "HXSettingCellAdaper.h"
 #import "HXIamgeView.h"
+#import "HXNumberButView.h"
 
 @interface HXSettingViewController ()
 
-@property (nonatomic, strong) UIImageView *imagevv;
 
 @end
 
@@ -33,7 +33,7 @@
 
     //第一组
     NSMutableArray *group1 = [NSMutableArray array];
-    HXSettingModel *model1 = [[HXSettingModel alloc]initWithIcon:@"calendar" title:@"钱包" destClass:[self class] andAccessibilityView:self.imagevv];
+    HXSettingModel *model1 = [[HXSettingModel alloc]initWithIcon:@"calendar" title:@"钱包" destClass:[self class] andAccessibilityView:[HXIamgeView imageVie]];
     HXSettingCellAdaper *adapter1 = [[HXSettingModelAdaper alloc]initWithData:model1];
     [group1 addObject:adapter1];
 
@@ -46,7 +46,7 @@
     HXSettingCellAdaper *adapter2 = [[HXSettingModelAdaper alloc]initWithData:model2];
     [group2 addObject:adapter2];
 
-    HXSettingModel *model3 =[[HXSettingModel alloc]initWithIcon:@"InvestmentRecord" title:@"关于" destClass:[self class] andAccessibilityView:self.imagevv];
+    HXSettingModel *model3 =[[HXSettingModel alloc]initWithIcon:@"InvestmentRecord" title:@"关于" destClass:[self class] andAccessibilityView:[HXIamgeView imageVie]];
     [model3 setBlock:^{
         NSLog(@"点击关于");
     }];
@@ -56,7 +56,8 @@
 
     //第三组
     NSMutableArray *group3 = [NSMutableArray array];
-    HXSettingModel *model31 =[[HXSettingModel alloc]initWithIcon:@"" title:@"网关" destClass:nil andAccessibilityView:nil];
+    HXNumberButView *number = [[HXNumberButView alloc]init];
+    HXSettingModel *model31 =[[HXSettingModel alloc]initWithIcon:@"" title:@"网关" destClass:nil andAccessibilityView:number];
 
     HXSettingCellAdaper *adapter31 = [[HXSettingModelAdaper alloc]initWithData:model31];
     [group3 addObject:adapter31];
@@ -81,18 +82,6 @@
 - (void)onClickSwitch
 {
 
-}
-
-- (UIImageView *)imagevv
-{
-//    if (!_imagevv) {
-
-    UIImageView *imageiew  = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"rightArrow"]];
-    imageiew.frame = CGRectMake(0, 0, 10, 20);
-    imageiew.contentMode = UIViewContentModeScaleAspectFit;
-    _imagevv = imageiew;
-//    }
-    return _imagevv;
 }
 
 @end

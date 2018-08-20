@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tag</key>
+		<string>1</string>
+		<key>title</key>
+		<string>一个抽象的工程类</string>
+		<key>img</key>
+		<string>home-two</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>3</string>
+		<key>title</key>
+		<string>抽象工厂设计模式</string>
+		<key>detail</key>
+		<string>抽象工厂</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>2</string>
+		<key>title</key>
+		<string>所谓抽象工厂是指一个工厂等级结构可以创建出分属于不同产品等级结构的一个产品族中的所有对象</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>1</string>
+		<key>title</key>
+		<string>父类的初始化方法可以理解为工厂;</string>
+		<key>img</key>
+		<string>home-one</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>1</string>
+		<key>title</key>
+		<string>xcode3</string>
+		<key>img</key>
+		<string>home-three</string>
+	</dict>
+	<dict>
+		<key>tag</key>
+		<string>3</string>
+		<key>title</key>
+		<string>抽象工厂与工厂方法的区别是</string>
+		<key>detail</key>
+		<string>工厂方法中的具体工厂一般只生产一个或几个控件对象，而抽象工厂中的具体工厂生产的是一族控件对象。</string>
+	</dict>
+</array>
+</plist>

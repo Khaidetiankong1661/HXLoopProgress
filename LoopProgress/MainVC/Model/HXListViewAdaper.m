@@ -8,10 +8,11 @@
 
 #import "HXListViewAdaper.h"
 #import "HXListModel.h"
+#import "HXIamgeView.h"
+
 
 @interface HXListViewAdaper()
 
-@property (nonatomic, strong) UIImageView *imagev;
 @end
 
 @implementation HXListViewAdaper
@@ -39,7 +40,7 @@
 
 - (UIView *)accessibilityView
 {
-    return self.imagev;
+    return [HXIamgeView imageVie];
 }
 
 - (OptionBlock)optionBlock
@@ -52,18 +53,6 @@
 {
     HXListModel *model = self.data;
     return model.destVC;
-}
-
-- (UIImageView *)imagev
-{
-    if (!_imagev) {
-
-        UIImageView *imageiew  = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"rightArrow"]];
-        imageiew.frame = CGRectMake(0, 0, 10, 20);
-        imageiew.contentMode = UIViewContentModeScaleAspectFit;
-        _imagev = imageiew;
-    }
-    return _imagev;
 }
 
 @end

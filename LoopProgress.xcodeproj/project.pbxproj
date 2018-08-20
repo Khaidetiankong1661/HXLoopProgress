@@ -16,6 +16,20 @@
 		7B7D5926211A8B3600ECBE54 /* LoopProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5925211A8B3600ECBE54 /* LoopProgressUITests.m */; };
 		7B7D5935211A8B5700ECBE54 /* HXLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */; };
 		7B7D5938211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */; };
+		7B90FC6B212A5F0B00B3C51A /* HXNumberButView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC6A212A5F0B00B3C51A /* HXNumberButView.m */; };
+		7B90FC73212A8EE100B3C51A /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC72212A8EE100B3C51A /* FactoryViewController.m */; };
+		7B90FC77212A8F8300B3C51A /* HXOperrationOneTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC75212A8F8300B3C51A /* HXOperrationOneTVCell.m */; };
+		7B90FC78212A8F8300B3C51A /* HXOperrationOneTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B90FC76212A8F8300B3C51A /* HXOperrationOneTVCell.xib */; };
+		7B90FC7B212A902000B3C51A /* HXBaseOperationTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC7A212A902000B3C51A /* HXBaseOperationTVCell.m */; };
+		7B90FC7F212A904600B3C51A /* HXOperationTwoTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC7D212A904600B3C51A /* HXOperationTwoTVCell.m */; };
+		7B90FC80212A904600B3C51A /* HXOperationTwoTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B90FC7E212A904600B3C51A /* HXOperationTwoTVCell.xib */; };
+		7B90FC84212A908100B3C51A /* HXOperationThreeeTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC82212A908100B3C51A /* HXOperationThreeeTVCell.m */; };
+		7B90FC85212A908100B3C51A /* HXOperationThreeeTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B90FC83212A908100B3C51A /* HXOperationThreeeTVCell.xib */; };
+		7B90FC88212A927900B3C51A /* FactoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC87212A927900B3C51A /* FactoryModel.m */; };
+		7B90FC8B212A92B500B3C51A /* FactoryOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC8A212A92B500B3C51A /* FactoryOneModel.m */; };
+		7B90FC8E212A92C000B3C51A /* FactoryTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC8D212A92C000B3C51A /* FactoryTwoModel.m */; };
+		7B90FC91212A92CA00B3C51A /* FactoryThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B90FC90212A92CA00B3C51A /* FactoryThreeModel.m */; };
+		7B90FC93212A9DEE00B3C51A /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B90FC92212A9DEE00B3C51A /* data.plist */; };
 		7BB3282821266CCB00E69FCD /* HXListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3282721266CCB00E69FCD /* HXListViewController.m */; };
 		7BB3282F21266E9400E69FCD /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3282E21266E9400E69FCD /* AdapterViewController.m */; };
 		7BB3283221266F6500E69FCD /* HXSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3283121266F6500E69FCD /* HXSettingModel.m */; };
@@ -68,6 +82,30 @@
 		7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLoopProgressView.m; sourceTree = "<group>"; };
 		7B7D5936211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXLoopProgressView+BaseConfiguration.h"; sourceTree = "<group>"; };
 		7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HXLoopProgressView+BaseConfiguration.m"; sourceTree = "<group>"; };
+		7B90FC69212A5F0B00B3C51A /* HXNumberButView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXNumberButView.h; sourceTree = "<group>"; };
+		7B90FC6A212A5F0B00B3C51A /* HXNumberButView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXNumberButView.m; sourceTree = "<group>"; };
+		7B90FC71212A8EE100B3C51A /* FactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		7B90FC72212A8EE100B3C51A /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
+		7B90FC74212A8F8300B3C51A /* HXOperrationOneTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOperrationOneTVCell.h; sourceTree = "<group>"; };
+		7B90FC75212A8F8300B3C51A /* HXOperrationOneTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOperrationOneTVCell.m; sourceTree = "<group>"; };
+		7B90FC76212A8F8300B3C51A /* HXOperrationOneTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXOperrationOneTVCell.xib; sourceTree = "<group>"; };
+		7B90FC79212A902000B3C51A /* HXBaseOperationTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBaseOperationTVCell.h; sourceTree = "<group>"; };
+		7B90FC7A212A902000B3C51A /* HXBaseOperationTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXBaseOperationTVCell.m; sourceTree = "<group>"; };
+		7B90FC7C212A904600B3C51A /* HXOperationTwoTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOperationTwoTVCell.h; sourceTree = "<group>"; };
+		7B90FC7D212A904600B3C51A /* HXOperationTwoTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOperationTwoTVCell.m; sourceTree = "<group>"; };
+		7B90FC7E212A904600B3C51A /* HXOperationTwoTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXOperationTwoTVCell.xib; sourceTree = "<group>"; };
+		7B90FC81212A908100B3C51A /* HXOperationThreeeTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOperationThreeeTVCell.h; sourceTree = "<group>"; };
+		7B90FC82212A908100B3C51A /* HXOperationThreeeTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOperationThreeeTVCell.m; sourceTree = "<group>"; };
+		7B90FC83212A908100B3C51A /* HXOperationThreeeTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXOperationThreeeTVCell.xib; sourceTree = "<group>"; };
+		7B90FC86212A927900B3C51A /* FactoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryModel.h; sourceTree = "<group>"; };
+		7B90FC87212A927900B3C51A /* FactoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryModel.m; sourceTree = "<group>"; };
+		7B90FC89212A92B500B3C51A /* FactoryOneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryOneModel.h; sourceTree = "<group>"; };
+		7B90FC8A212A92B500B3C51A /* FactoryOneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryOneModel.m; sourceTree = "<group>"; };
+		7B90FC8C212A92C000B3C51A /* FactoryTwoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryTwoModel.h; sourceTree = "<group>"; };
+		7B90FC8D212A92C000B3C51A /* FactoryTwoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryTwoModel.m; sourceTree = "<group>"; };
+		7B90FC8F212A92CA00B3C51A /* FactoryThreeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryThreeModel.h; sourceTree = "<group>"; };
+		7B90FC90212A92CA00B3C51A /* FactoryThreeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryThreeModel.m; sourceTree = "<group>"; };
+		7B90FC92212A9DEE00B3C51A /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		7BB3282621266CCB00E69FCD /* HXListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXListViewController.h; sourceTree = "<group>"; };
 		7BB3282721266CCB00E69FCD /* HXListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXListViewController.m; sourceTree = "<group>"; };
 		7BB3282D21266E9400E69FCD /* AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
@@ -182,13 +220,12 @@
 				7BB3285B2126D4BA00E69FCD /* MainVC */,
 				7BB3284E2126AB1E00E69FCD /* num0 */,
 				7BB3282921266DF700E69FCD /* num1 */,
+				7B90FC6D212A8EB500B3C51A /* num2 */,
 				7BB32840212675FB00E69FCD /* Tool */,
-				7B7D5907211A8B3400ECBE54 /* Main.storyboard */,
-				7B7D590A211A8B3600ECBE54 /* Assets.xcassets */,
-				7B7D590C211A8B3600ECBE54 /* LaunchScreen.storyboard */,
-				7B7D590F211A8B3600ECBE54 /* Info.plist */,
-				7B7D5910211A8B3600ECBE54 /* main.m */,
+				7B90FC6C212A613000B3C51A /* Supporting Files */,
 				7BB3284A21269AB200E69FCD /* Header.h */,
+				7B7D590F211A8B3600ECBE54 /* Info.plist */,
+				7B90FC92212A9DEE00B3C51A /* data.plist */,
 			);
 			path = LoopProgress;
 			sourceTree = "<group>";
@@ -209,6 +246,81 @@
 				7B7D5927211A8B3600ECBE54 /* Info.plist */,
 			);
 			path = LoopProgressUITests;
+			sourceTree = "<group>";
+		};
+		7B90FC68212A504300B3C51A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BB3284F2126B62C00E69FCD /* HXListViewAdaper.h */,
+				7BB328502126B62C00E69FCD /* HXListViewAdaper.m */,
+				7BB328522126B64500E69FCD /* HXListModel.h */,
+				7BB328532126B64500E69FCD /* HXListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B90FC6C212A613000B3C51A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B7D5907211A8B3400ECBE54 /* Main.storyboard */,
+				7B7D590A211A8B3600ECBE54 /* Assets.xcassets */,
+				7B7D590C211A8B3600ECBE54 /* LaunchScreen.storyboard */,
+				7B7D5910211A8B3600ECBE54 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B90FC6D212A8EB500B3C51A /* num2 */ = {
+			isa = PBXGroup;
+			children = (
+				7B90FC6E212A8EB500B3C51A /* Model */,
+				7B90FC6F212A8EB500B3C51A /* VC */,
+				7B90FC70212A8EB500B3C51A /* View */,
+			);
+			name = num2;
+			path = LoopProgress/num2;
+			sourceTree = SOURCE_ROOT;
+		};
+		7B90FC6E212A8EB500B3C51A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B90FC86212A927900B3C51A /* FactoryModel.h */,
+				7B90FC87212A927900B3C51A /* FactoryModel.m */,
+				7B90FC89212A92B500B3C51A /* FactoryOneModel.h */,
+				7B90FC8A212A92B500B3C51A /* FactoryOneModel.m */,
+				7B90FC8C212A92C000B3C51A /* FactoryTwoModel.h */,
+				7B90FC8D212A92C000B3C51A /* FactoryTwoModel.m */,
+				7B90FC8F212A92CA00B3C51A /* FactoryThreeModel.h */,
+				7B90FC90212A92CA00B3C51A /* FactoryThreeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B90FC6F212A8EB500B3C51A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7B90FC71212A8EE100B3C51A /* FactoryViewController.h */,
+				7B90FC72212A8EE100B3C51A /* FactoryViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7B90FC70212A8EB500B3C51A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B90FC79212A902000B3C51A /* HXBaseOperationTVCell.h */,
+				7B90FC7A212A902000B3C51A /* HXBaseOperationTVCell.m */,
+				7B90FC74212A8F8300B3C51A /* HXOperrationOneTVCell.h */,
+				7B90FC75212A8F8300B3C51A /* HXOperrationOneTVCell.m */,
+				7B90FC76212A8F8300B3C51A /* HXOperrationOneTVCell.xib */,
+				7B90FC7C212A904600B3C51A /* HXOperationTwoTVCell.h */,
+				7B90FC7D212A904600B3C51A /* HXOperationTwoTVCell.m */,
+				7B90FC7E212A904600B3C51A /* HXOperationTwoTVCell.xib */,
+				7B90FC81212A908100B3C51A /* HXOperationThreeeTVCell.h */,
+				7B90FC82212A908100B3C51A /* HXOperationThreeeTVCell.m */,
+				7B90FC83212A908100B3C51A /* HXOperationThreeeTVCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		7BB3282921266DF700E69FCD /* num1 */ = {
@@ -242,6 +354,8 @@
 				7BB3283F2126701600E69FCD /* HXSettingCellAdaperProtocol.h */,
 				7BB328582126D1A200E69FCD /* HXIamgeView.h */,
 				7BB328592126D1A200E69FCD /* HXIamgeView.m */,
+				7B90FC69212A5F0B00B3C51A /* HXNumberButView.h */,
+				7B90FC6A212A5F0B00B3C51A /* HXNumberButView.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -289,10 +403,7 @@
 			children = (
 				7BB3282621266CCB00E69FCD /* HXListViewController.h */,
 				7BB3282721266CCB00E69FCD /* HXListViewController.m */,
-				7BB3284F2126B62C00E69FCD /* HXListViewAdaper.h */,
-				7BB328502126B62C00E69FCD /* HXListViewAdaper.m */,
-				7BB328522126B64500E69FCD /* HXListModel.h */,
-				7BB328532126B64500E69FCD /* HXListModel.m */,
+				7B90FC68212A504300B3C51A /* Model */,
 			);
 			path = MainVC;
 			sourceTree = "<group>";
@@ -403,7 +514,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B7D590E211A8B3600ECBE54 /* LaunchScreen.storyboard in Resources */,
+				7B90FC80212A904600B3C51A /* HXOperationTwoTVCell.xib in Resources */,
+				7B90FC85212A908100B3C51A /* HXOperationThreeeTVCell.xib in Resources */,
+				7B90FC78212A8F8300B3C51A /* HXOperrationOneTVCell.xib in Resources */,
 				7B7D590B211A8B3600ECBE54 /* Assets.xcassets in Resources */,
+				7B90FC93212A9DEE00B3C51A /* data.plist in Resources */,
 				7B7D5909211A8B3400ECBE54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,22 +583,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B90FC7B212A902000B3C51A /* HXBaseOperationTVCell.m in Sources */,
 				7BB328512126B62C00E69FCD /* HXListViewAdaper.m in Sources */,
 				7B7D5935211A8B5700ECBE54 /* HXLoopProgressView.m in Sources */,
 				7BB3283221266F6500E69FCD /* HXSettingModel.m in Sources */,
+				7B90FC77212A8F8300B3C51A /* HXOperrationOneTVCell.m in Sources */,
+				7B90FC91212A92CA00B3C51A /* FactoryThreeModel.m in Sources */,
 				7BB3284D21269EDC00E69FCD /* HXSettingViewController.m in Sources */,
 				7BB328542126B64600E69FCD /* HXListModel.m in Sources */,
+				7B90FC8B212A92B500B3C51A /* FactoryOneModel.m in Sources */,
+				7B90FC8E212A92C000B3C51A /* FactoryTwoModel.m in Sources */,
 				7BB3283821266FBC00E69FCD /* HXSettingTableViewCell.m in Sources */,
 				7BB3285A2126D1A200E69FCD /* HXIamgeView.m in Sources */,
 				7BB3282F21266E9400E69FCD /* AdapterViewController.m in Sources */,
+				7B90FC84212A908100B3C51A /* HXOperationThreeeTVCell.m in Sources */,
+				7B90FC88212A927900B3C51A /* FactoryModel.m in Sources */,
 				7BB3283B21266FCF00E69FCD /* HXSettingCellAdaper.m in Sources */,
 				7BB328572126BB5800E69FCD /* HXProgressViewController.m in Sources */,
+				7B90FC6B212A5F0B00B3C51A /* HXNumberButView.m in Sources */,
 				7BB3282821266CCB00E69FCD /* HXListViewController.m in Sources */,
 				7B7D5911211A8B3600ECBE54 /* main.m in Sources */,
+				7B90FC73212A8EE100B3C51A /* FactoryViewController.m in Sources */,
 				7BB3283E21266FEF00E69FCD /* HXSettingModelAdaper.m in Sources */,
 				7B7D5903211A8B3400ECBE54 /* AppDelegate.m in Sources */,
 				7B7D5938211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m in Sources */,
 				7BB328472126765400E69FCD /* UIColor+Tool.m in Sources */,
+				7B90FC7F212A904600B3C51A /* HXOperationTwoTVCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
