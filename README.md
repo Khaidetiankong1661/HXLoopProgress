@@ -33,5 +33,6 @@ mask中backgroudcolor的alpha比contents的图片alpha要强。
 ##
 ##  num2：抽象工厂模式
 ![抽象工厂模式开发：cell](./IMAGs/factory.png)
+
 博客：
 [https://blog.csdn.net/qq_27909209/article/details/81282697](https://blog.csdn.net/qq_27909209/article/details/81282697)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B24E2C0212E465A00695E9E /* SonmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B24E2BF212E465A00695E9E /* SonmeView.m */; };
 		7B7D5903211A8B3400ECBE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D5902211A8B3400ECBE54 /* AppDelegate.m */; };
 		7B7D5909211A8B3400ECBE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D5907211A8B3400ECBE54 /* Main.storyboard */; };
 		7B7D590B211A8B3600ECBE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D590A211A8B3600ECBE54 /* Assets.xcassets */; };
@@ -64,6 +65,8 @@
 
 /* Begin PBXFileReference section */
 		7629560B5B1AE8B0E3EAD950 /* Pods-LoopProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoopProgress.release.xcconfig"; path = "Target Support Files/Pods-LoopProgress/Pods-LoopProgress.release.xcconfig"; sourceTree = "<group>"; };
+		7B24E2BE212E465A00695E9E /* SonmeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonmeView.h; sourceTree = "<group>"; };
+		7B24E2BF212E465A00695E9E /* SonmeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonmeView.m; sourceTree = "<group>"; };
 		7B7D58FE211A8B3400ECBE54 /* LoopProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7D5901211A8B3400ECBE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B7D5902211A8B3400ECBE54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				7B7D5934211A8B5700ECBE54 /* HXLoopProgressView.m */,
 				7B7D5936211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.h */,
 				7B7D5937211A965A00ECBE54 /* HXLoopProgressView+BaseConfiguration.m */,
+				7B24E2BE212E465A00695E9E /* SonmeView.h */,
+				7B24E2BF212E465A00695E9E /* SonmeView.m */,
 			);
 			path = HXLoopProgressView;
 			sourceTree = "<group>";
@@ -603,6 +608,7 @@
 				7B90FC6B212A5F0B00B3C51A /* HXNumberButView.m in Sources */,
 				7BB3282821266CCB00E69FCD /* HXListViewController.m in Sources */,
 				7B7D5911211A8B3600ECBE54 /* main.m in Sources */,
+				7B24E2C0212E465A00695E9E /* SonmeView.m in Sources */,
 				7B90FC73212A8EE100B3C51A /* FactoryViewController.m in Sources */,
 				7BB3283E21266FEF00E69FCD /* HXSettingModelAdaper.m in Sources */,
 				7B7D5903211A8B3400ECBE54 /* AppDelegate.m in Sources */,

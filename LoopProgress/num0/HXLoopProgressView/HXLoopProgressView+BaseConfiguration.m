@@ -14,19 +14,19 @@
 
 + (UIColor *)startColor {
 
-        return [UIColor greenColor];
+        return [UIColor redColor];
 //    return [UIColor colorWithRed:231.0/255.0f green:56.0/255.0f blue:61.0/255.0f alpha:1];
 }
 
 + (UIColor *)centerColor {
 
-        return [UIColor yellowColor];
+        return [UIColor orangeColor];
 //    return [UIColor colorWithRed:242.0/255.0f green:88.0/255.0f blue:93.0/255.0f alpha:1];
 }
 
 + (UIColor *)endColor {
 
-        return [UIColor redColor];
+        return [UIColor blueColor];
 //    return [UIColor colorWithRed:245.0/255.0f green:105.0/255.0f blue:112.0/255.0f alpha:1];
 }
 

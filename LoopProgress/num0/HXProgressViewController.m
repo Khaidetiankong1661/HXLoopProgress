@@ -8,10 +8,14 @@
 
 #import "HXProgressViewController.h"
 #import "HXLoopProgressView.h"
+#import "SonmeView.h"
+
 
 @interface HXProgressViewController ()
 @property (weak, nonatomic) IBOutlet HXLoopProgressView *views;
 @property (weak, nonatomic) IBOutlet UISlider *slider;
+
+@property (weak, nonatomic) IBOutlet SonmeView *someView;
 
 @end
 
@@ -23,7 +27,7 @@
 
     self.view.backgroundColor = [UIColor whiteColor];
 
-    [self performSelector:@selector(anima) withObject:self afterDelay:3];
+//    [self performSelector:@selector(anima) withObject:self afterDelay:3];
 }
 
 - (void)anima {
@@ -38,6 +42,7 @@
 
 - (IBAction)slider:(UISlider *)sender {
     _views.persentage = sender.value;
+    [_someView setSSSPer:sender.value];
 
 }
 @end

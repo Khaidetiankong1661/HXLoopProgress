@@ -70,6 +70,7 @@
 - (void)settUI
 {
     CAShapeLayer *layer = [self generateMaskLayer];
+//    layer.lineWidth = 30;
     [self.layer addSublayer:layer];
     self.layer.mask = layer;
 }
@@ -82,11 +83,11 @@
 - (CAShapeLayer *)generateMaskLayer
 {
     CAShapeLayer *layer = [CAShapeLayer layer];
+    
     layer.frame = self.bounds;
 
     UIBezierPath *paths = nil;
     paths = [UIBezierPath bezierPathWithArcCenter:CGPointMake(SELF_WIDTH / 2, SELF_HEIGHT / 2) radius:SELF_WIDTH / 2.5 startAngle:[HXLoopProgressView startAngle] endAngle:[HXLoopProgressView endAngle] clockwise:YES];
-
     layer.lineWidth = [HXLoopProgressView lineWidth];
 
     layer.fillColor = [UIColor clearColor].CGColor;
@@ -126,6 +127,7 @@
     [CATransaction commit];
 
     _persentage = persent;
+
 }
 
 @end
