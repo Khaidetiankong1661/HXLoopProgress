@@ -50,7 +50,7 @@
 
     // section3
     NSMutableArray *arr4 = [NSMutableArray array];
-    HXListModel *model31 =[[HXListModel alloc]initWithIcon:@"" title:@"网关" destClass:nil];
+    HXListModel *model31 =[[HXListModel alloc]initWithIcon:@"" title:@"富文本点击" destClass:nil];
     HXSettingCellAdaper *adapter4 = [[HXListViewAdaper alloc] initWithData:model31];
     [arr4 addObject:adapter4];
 
